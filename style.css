@@ -1,0 +1,115 @@
+/* 노멀라이징 */
+*{
+    margin: 0 ;
+    padding: 0 ;
+  }
+  ul , li {
+    list-style: none ;
+  }
+  a{
+    color: inherit ;
+    text-decoration: none ;
+  }
+  /* 라이브러리 */
+  /* 스타일 */
+  .cell{
+    float : left ;
+  }
+  .cell-r{
+    float : right ;
+  }
+  .row::after{
+    clear : both;
+    content : "";
+    display : block;
+  }
+  /* top-bar start */
+  .top-bar{
+    width : 100% ;
+    height : 60px ;
+    background-color : rgba(0, 109, 191) ;
+    position : relative ;
+  }
+  
+  .top-bar > .ibk-sports{
+    height : 60px ;
+    color : white ;
+    line-height : 60px ; 
+  }
+  
+  .top-bar > .ibk-sports > ul > li{
+    font-size : 13px ;
+    margin-left : 10px ;
+    margin-right : 10px ;
+  }
+  
+  .top-bar > .logo-box{
+    width : 120px ;
+    height : 60px ;
+    background-color : yellowgreen ;
+    position : absolute ;
+    left : 50% ;
+    transform : translatex(-50%) ;
+  }
+  
+  .top-bar > .login-box{
+    height : 60px ;
+    color : white ;
+    line-height : 60px ;
+  }
+  
+  .top-bar > .login-box > ul > li{
+    font-size : 13px ;
+    margin-left : 10px ;
+    margin-right : 10px ;
+  }
+  /* top-bar end */
+  /* menu-bar start */
+  .menu-bar{
+    width : 100% ;
+    height : 80px ;
+    background-color : rgba(0, 86 ,164) ;
+    text-align : center ;
+    font-size : 20px ;
+  }
+  
+  .menu-bar > .menu{
+    height : 80px ;
+    margin : 0 auto ;
+    line-height : 80px ;
+    color : white ;
+    display : inline-block ;
+  }
+  
+  .menu-bar > .menu > li{
+    margin-left : 20px ;
+    margin-right : 20px ;
+  } 
+  /* menu-bar end */
+  /* main-slider start */
+  .main-slider{
+    width : 100% ;
+  }
+  
+  .main-slider .content{
+    background-repeat : no-repeat;
+    background-size : cover ;
+    background-position : center ;
+  }
+  
+  .main-slider .slick-slider .slick-list{
+    height : 500px ;
+  }
+  
+  .main-sldier .slick-slid{
+    height : 500px ;
+  }
+  
+  .main-sldier .slick-track{
+    height : 500px ;
+  }
+  
+  .main-slider .content1{
+    background-image: url(https://www.meconomynews.com/news/photo/202104/52250_61223_1920.png) ;
+  }
+  /* main-slider end */
