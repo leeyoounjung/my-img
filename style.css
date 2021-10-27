@@ -116,6 +116,7 @@ a{
   width : 100% ;
   background-color : yellow ;
   position : relative ;
+  margin-bottom : 100px ;
 }
 
 /* .slick-slider .slider .slick-track{
@@ -126,20 +127,24 @@ a{
   height : 400px ;
 } */
 
-.main-slider .slick-slide{
+/* .main-slider .slick-slide{
   height : 500px ;
-}
+} */
+
+/* .main-slider .slick-slider .slick-list{
+  height : 500px ;
+} */
 
 .main-slider .content{
   width : 100% ;
-  height : 100% ;
+  padding-bottom : 500px ;
   background-size : cover ;
   background-repeat : no-repeat ;
   background-position : center ;
 }
 
 .main-slider .content1{
-  background-image: url(https://blog.kakaocdn.net/dn/bP5aTT/btqO0T5MN9v/UGcMOOFLVXSk6TX4itInd1/tfile.bmp) ;
+  background-image : url(https://blog.kakaocdn.net/dn/bP5aTT/btqO0T5MN9v/UGcMOOFLVXSk6TX4itInd1/tfile.bmp) ;
 }
 
 .main-slider .slider .content2{
@@ -153,4 +158,113 @@ a{
 .main-slider .slider .slick-dots li.slick-active button:before{
   color : white ;
 }
+
+.main-slider > .btn{
+  width : 100% ;
+  height : 100% ;
+  position : absolute ;
+  top : 0 ;
+}
+
+.main-slider > .btn > .left-btn{
+  width : 50px ;
+  height : 100px ;
+  position : absolute ;
+  top : 50% ;
+  left : 10px ;
+  transform : translatey(-50%) ;
+  box-sizing : border-box ;
+}
+
+.main-slider > .btn > .left-btn > i{
+  font-size : 50px ;
+  line-height : 100px ;
+  color : white ;
+  padding-left : 5px ;
+  cursor : pointer ;
+}
+
+.main-slider > .btn > .right-btn{
+  width : 50px ;
+  height : 100px ;
+  position : absolute ;
+  top : 50% ;
+  right : 10px ;
+  transform : translatey(-50%) ;
+  box-sizing : border-box ;
+}
+
+.main-slider > .btn > .right-btn > i{
+  font-size : 50px ;
+  line-height : 100px ;
+  color : white ;
+  padding-left : 10px ;
+  cursor : pointer ;
+}
 /* main-slider end */
+/* game-wrap start */
+.game-wrap{
+  padding-top : 100px ;
+  width : 1400px ;
+  background-color : pink ;
+  margin : 0 auto ;
+  position : relative ;
+}
+
+.game-wrap > .game-top-box{
+  width : 100% ;
+  height : 50px ;
+  position : absolute ;
+  top : 20px ;
+  line-height : 100px ;
+}
+
+.game-wrap > .game-top-box > .txt-box{
+  width : 200px ;
+  color : rgba(0, 86 ,164) ; 
+  font-size : 50px ;
+  text-align : center ;
+  position : absolute ;
+  top : 50% ;
+  transform : translatey(-50%) ;
+}
+
+.game-wrap > .game-top-box > .click-box{
+  width : 150px ;
+  height : 50px ;
+  background-color : rgba(0, 86 ,164) ;
+  position : absolute ;
+  top : 50% ;
+  left : 15% ;
+  transform : translatey(-50%) ;
+  color : white ;
+  text-align : center ;
+  line-height : 50px ;
+  font-size : 15px ;
+}
+
+.game-wrap > .game-bottom-box{
+  width : 100% ;
+  height : 500px ;
+  background-color : gray ;
+}
+
+.game-wrap > .game-bottom-box > .content{
+  width : calc(100% - 10px) / 3 ;
+  height : 50% ;
+  background-color : yellow ;
+  border-right : 1px black slide ;
+  box-sizing : border-box ;
+}
+
+.game-wrap > .game-bottom-box > .content > .txt-box{
+  width : 100% ;
+  text-align : center ;
+  font-size : 30px ; 
+  background-color : greenyellow ;
+}
+
+.game-wrap > .game-bottom-box > .content > .score-box{
+  width : 100% ;
+}
+/* game-wrap end */
