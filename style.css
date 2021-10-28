@@ -202,11 +202,9 @@ a{
   cursor : pointer ;
 }
 /* main-slider end */
-/* game-wrap start */
 .game-wrap{
   padding-top : 100px ;
-  width : 1400px ;
-  background-color : pink ;
+  width : 1500px ;
   margin : 0 auto ;
   position : relative ;
 }
@@ -231,7 +229,7 @@ a{
 
 .game-wrap > .game-top-box > .click-box{
   width : 150px ;
-  height : 50px ;
+  height : 40px ;
   background-color : rgba(0, 86 ,164) ;
   position : absolute ;
   top : 50% ;
@@ -239,32 +237,178 @@ a{
   transform : translatey(-50%) ;
   color : white ;
   text-align : center ;
-  line-height : 50px ;
+  line-height : 40px ;
   font-size : 15px ;
+  cursor : pointer ;
 }
 
 .game-wrap > .game-bottom-box{
   width : 100% ;
-  height : 500px ;
-  background-color : gray ;
+  height : 100% ;
 }
 
 .game-wrap > .game-bottom-box > .content{
-  width : calc(100% - 10px) / 3 ;
+  width : calc(100%/3 - 10px); ;
   height : 50% ;
   background-color : yellow ;
-  border-right : 1px black slide ;
   box-sizing : border-box ;
+  margin-right : 10px ;
+  position : relative ;
+}
+
+.game-wrap > .game-bottom-box > .content::last-child{
+  margin-right : 0 ;
 }
 
 .game-wrap > .game-bottom-box > .content > .txt-box{
   width : 100% ;
   text-align : center ;
-  font-size : 30px ; 
-  background-color : greenyellow ;
+  font-size : 30px ;
+  margin-top : 10px ;
 }
 
 .game-wrap > .game-bottom-box > .content > .score-box{
   width : 100% ;
+  box-sizing : border-box ;
+  margin : 15px 10px ;
+/*   position : absolute ;
+  left : 50% ;
+  transform : translatex(-50%) ; */
+}
+
+.game-wrap > .game-bottom-box > .content > .score-box > .content{
+  width : calc(100%/3); ;
+}
+
+.game-wrap > .game-bottom-box > .content > .score-box > .logo{
+  width : calc(100%/3 - 10px);
+  background-color : green ;
+  margin : 0 auto ;
+  text-align : center ;
+  font-size : 20px ;
+}
+
+.game-wrap > .game-bottom-box > .content > .score-box > .logo > .logo-box{
+  width : 100% ;
+  padding-bottom : 50% ;
+  background-color : yellowgreen ;
+}
+
+.game-wrap > .game-bottom-box > .content > .score-box > .score{
+  text-align : center ;
+  font-size : 30px ;
+  line-height : 100px ;
+}
+
+.game-wrap > .game-bottom-box > .content > .score-box > .score > .versus{
+  width : 50px ;
+  height : 50px ;
+  border-radius : 50% ;
+  background-color : gray ;
+  margin : 25px 60px ;
+  position : relative ;
+}
+
+.game-wrap > .game-bottom-box > .content > .score-box > .score > .versus > p{
+  color : white ;
+  font-size : 20px ;
+  position : absolute ;
+  top : 50% ;
+  left : 50% ;
+  transform : translate(-50%,-50%) ;
+}
+
+.game-wrap > .game-bottom-box > .content > .click-box{
+  width : 150px ;
+  height : 40px ;
+  background-color : rgba(0, 86 ,164) ;
+  margin : 15px auto ;
+  color : white ;
+  text-align : center ;
+  line-height : 40px ;
+  font-size : 15px ;
+  cursor : pointer ;
+}
+
+.game-wrap > .game-bottom-box > .content2 > .click-box{
+  width : 100% ;
+  background-color : yellowgreen ;
+  cursor : default ;
+}
+
+.game-wrap > .game-bottom-box > .content3 > .click-box{
+  width : 100% ;
+  background-color : yellowgreen ;
+  cursor : default ;
 }
 /* game-wrap end */
+/* player-wrap start */
+.player-wrap{
+  margin : 100px auto;
+  width : 1500px ;
+}
+
+.player-wrap > .player-top-box{
+  width : 100% ;
+}
+
+.player-wrap > .player-top-box > p{
+  width : 200px ;
+  color : rgba(0, 86 ,164) ; 
+  font-size : 50px ;
+  text-align : center ;
+}
+
+.player-wrap > .player-bottom-box{
+  margin-top : 20px ;
+}
+
+.player-wrap > .player-bottom-box > .player-content{
+  width : 100% ;
+  background-color : pink ;
+}
+
+.player-wrap > .player-bottom-box > .player-content > .player{
+  width : calc(100%/6);
+  height : 200px ;
+  background-color : orange ;
+}
+/* player-wrap end */
+/* altostv-wrap start */
+.altostv-wrap{
+  width : 1500px ;
+  background-color : green ;
+  margin : 100px auto; 
+}
+
+.altostv-wrap > .altostv-top-box > p{
+  width : 250px ;
+  color : rgba(0, 86 ,164) ; 
+  font-size : 50px ;
+  text-align : center ;
+}
+
+.altostv-wrap > .altostv-bottom-box{
+  width : 90% ;
+  background-color : skyblue ; 
+  margin : 15px auto ;
+}
+
+.altostv-wrap > .altostv-bottom-box > .slider > .content{
+  width : calc(100%/4 - 30px) ;
+  height : 250px ;
+  background-color : pink ;
+}
+
+.altostv-wrap > .altostv-bottom-box > .slider > .content > .img-box{
+  width : 100% ;
+  height : 80% ;
+  background-color : greenyellow ;
+}
+
+.altostv-wrap > .altostv-bottom-box > .slider > .content > .txt-box{
+  width : 100% ;
+  height : 20% ;
+  background-color : yellowgreen ;
+}
+/* altostv-wrap end */
