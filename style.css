@@ -445,7 +445,6 @@ a{
   margin : 0 10px ;
   width : calc(100%/4 - 20px) ;
   height : 200px ;
-  background-color : pink ;
 }
 
 .altostv-wrap > .altostv-bottom-box > .slider > .content > .img-box{
@@ -510,3 +509,167 @@ a{
   cursor : pointer ;
 }
 /* altostv-wrap end */
+/* photo-wrap start */
+.photo-wrap{
+  width : 1500px ;
+  margin : 100px auto; 
+  position : relative ;
+}
+
+.photo-wrap > .photo-top-box > p{
+  width : 380px ;
+  color : rgba(0, 86 ,164) ; 
+  font-size : 50px ;
+  text-align : center ;
+}
+
+.photo-wrap > .photo-bottom-box{
+  width : 95% ;
+  background-color : skyblue ; 
+  margin : 15px auto ;
+  max-height : 200px ;
+  overflow : hidden ;
+} 
+
+.photo-wrap > .photo-bottom-box > .slider{
+  width : 100% ;
+  height : 200px ;
+}
+
+.photo-wrap > .photo-bottom-box > .slider > .content{
+  float : left ;
+  margin : 0 10px ;
+  width : calc(100%/4 - 20px) ;
+  height : 200px ;
+  background-color : pink ;
+}
+
+.photo-wrap > .photo-bottom-box > .slider > .content > .img-box{
+  width : 100% ;
+  height : 80% ;
+  cursor : pointer ; 
+  background-color : greenyellow ;
+  background-repeat : no-repeat ;
+  background-size : cover ;
+  background-position : center ;
+}
+
+.photo-wrap > .photo-bottom-box > .slider > .content > .txt-box{
+  width : 100% ;
+  height : 20% ;
+  background-color : yellowgreen ;
+  text-align : center ;
+  line-height : 40px ;
+  cursor : pointer ;
+}
+
+.photo-wrap > .btn{
+  width : 100% ;
+  height : 100% ;
+  position : absolute ;
+  top : 0 ;
+}
+
+.photo-wrap > .btn > .left-btn{
+  width : 50px ;
+  height : 100px ;
+  position : absolute ;
+  top : 70% ;
+  left : 0 ;
+  transform : translatey(-70%) ;
+  box-sizing : border-box ;
+}
+
+.photo-wrap > .btn > .left-btn > i{
+  font-size : 50px ;
+  line-height : 100px ;
+  color : rgba(0, 86 ,164) ;
+  padding-left : 5px ;
+  cursor : pointer ;
+}
+
+.photo-wrap > .btn > .right-btn{
+  width : 50px ;
+  height : 100px ;
+  position : absolute ;
+  top : 70% ;
+  right : 0 ;
+  transform : translatey(-70%) ;
+  box-sizing : border-box ;
+}
+
+.photo-wrap > .btn > .right-btn > i{
+  font-size : 50px ;
+  line-height : 100px ;
+  color : rgba(0, 86 ,164) ;
+  padding-left : 10px ;
+  cursor : pointer ;
+}
+/* photo-wrap end */
+/* news-wrap start */
+.news-wrap{
+  width : 1500px ;
+  margin : 100px auto; 
+  position : relative ;
+}
+
+.news-wrap > .news-top-box{
+  width : 200px ;
+  color : rgba(0, 86 ,164) ; 
+  font-size : 50px ;
+  text-align : center ;
+}
+
+.news-wrap > .news-left-box{
+  width : 30% ;
+  height : 300px ; 
+  background-color : orange ;
+  cursor : pointer ;
+}
+
+.news-wrap > .news-left-box > .img-box{
+  background-repeat : no-repeat ;
+  background-size : cover ;
+  background-position : center ;
+}
+
+.news-wrap > .news-right-box{
+  width : 70% ;
+  height : 300px ;
+}
+
+.news-wrap > .news-right-box > .news-right-top > p{
+  color : rgba(0, 86 ,164) ; 
+  font-size : 30px ;
+  cursor : pointer ;
+  margin-left : 30px ;
+}
+
+.news-wrap > .news-right-box > .news-right-top > .txt-box{
+  font-size : 20px ;
+  margin-top : 20px ;
+  margin-left : 30px ;
+  cursor : pointer ;
+}
+
+.news-wrap > .news-right-box > .border-box{
+  width : 100% ;
+  height : 30px ;
+  border-bottom : 4px dashed #cccccc ;
+  margin-left : 30px ;
+}
+
+.news-wrap > .news-right-box > .news-right-bottom{
+  font-size : 18px ;
+  margin-left : 50px ;
+}
+
+.news-wrap > .news-right-box > .news-right-bottom > ul > li{
+  margin-top : 13px ;
+  list-style-type : square ;
+}
+
+.news-wrap > .news-right-box > .news-right-bottom > ul > li::marker{
+  color : #cccccc ;
+}
+/* news-wrap end */
