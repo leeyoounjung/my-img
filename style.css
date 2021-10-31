@@ -429,7 +429,6 @@ a{
 
 .altostv-wrap > .altostv-bottom-box{
   width : 95% ;
-  background-color : skyblue ; 
   margin : 15px auto ;
   max-height : 200px ;
   overflow : hidden ;
@@ -460,7 +459,6 @@ a{
 .altostv-wrap > .altostv-bottom-box > .slider > .content > .txt-box{
   width : 100% ;
   height : 20% ;
-  background-color : yellowgreen ;
   text-align : center ;
   line-height : 40px ;
   cursor : pointer ;
@@ -525,7 +523,6 @@ a{
 
 .photo-wrap > .photo-bottom-box{
   width : 95% ;
-  background-color : skyblue ; 
   margin : 15px auto ;
   max-height : 200px ;
   overflow : hidden ;
@@ -541,7 +538,6 @@ a{
   margin : 0 10px ;
   width : calc(100%/4 - 20px) ;
   height : 200px ;
-  background-color : pink ;
 }
 
 .photo-wrap > .photo-bottom-box > .slider > .content > .img-box{
@@ -557,7 +553,6 @@ a{
 .photo-wrap > .photo-bottom-box > .slider > .content > .txt-box{
   width : 100% ;
   height : 20% ;
-  background-color : yellowgreen ;
   text-align : center ;
   line-height : 40px ;
   cursor : pointer ;
@@ -673,3 +668,66 @@ a{
   color : #cccccc ;
 }
 /* news-wrap end */
+/* ibk-bank-logo start */
+.ibk-bank-logo{
+  width : 100% ;
+  height : 100px ;
+  margin-bottom : 10px ;
+}
+
+.ibk-bank-logo > .ibk{
+  border-top : 2px #cccccc solid ;
+  border-bottom : 2px #cccccc solid ;
+  margin : 0 auto ;
+  width : 1500px ;
+  height : 100% ;
+}
+
+.ibk-bank-logo > .ibk > .content{
+  width : calc(100%/7) ;
+  height : 100% ;
+  background-color : yellow ;
+}
+/* ibk-bank-logo end */
+/* footer start */
+.footer{
+  width : 100% ;
+  height : 100px ;
+}
+
+.footer > .ibk{
+  width : 1500px ;
+  height : 100% ;
+  margin : 0 auto ;
+}
+
+.footer > .ibk > .ibk-logo{
+  width : 10% ;
+  height : 100% ;
+  background-color : pink ;
+}
+
+.footer > .ibk > .ibk-bank{
+  width : 80% ;
+  height : 100% ; 
+}
+
+.footer > .ibk > .ibk-bank > .top-box{
+  width : 100% ;
+  height : 30% ;
+  font-size : 16px ;
+  margin-bottom : 10px ;
+} 
+
+.footer > .ibk > .ibk-bank > .bottom-box{
+  width : 100% ;
+  height : 70% ;
+  color : #cccccc ;
+  font-size : 13px ;
+}
+
+.footer > .ibk > .select-box{
+  width : 10% ;
+  height : 100% ;
+}
+/* footer end */
