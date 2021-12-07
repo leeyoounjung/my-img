@@ -119,9 +119,7 @@ a{
 /* main-slider start */
 .main-slider{
   width : 100% ;
-  background-color : yellow ;
   position : relative ;
-  margin-bottom : 100px ;
 }
 
 /* .slick-slider .slider .slick-track{
@@ -140,22 +138,15 @@ a{
   height : 500px ;
 } */
 
-.main-slider .content{
+.main-slider .slider .content{
   width : 100% ;
-  padding-bottom : 500px ;
   background-size : cover ;
   background-repeat : no-repeat ;
   background-position : center ;
 }
 
-.main-slider .content1{
-  /* background-image : url(https://blog.kakaocdn.net/dn/bP5aTT/btqO0T5MN9v/UGcMOOFLVXSk6TX4itInd1/tfile.bmp) ; */
-  background-image: url(./img/mainslider_01.jpg);
-}
-
-.main-slider .slider .content2{
-  /* background-image : url(http://sports.ibk.co.kr/uploads/main/1765514121_1634199908.jpg) ; */
-  background-image: url(./img/mainslider_02.jfif);
+.main-slider .slider .content img{
+  width: 100% ;
 }
 
 .main-slider .slider .slick-dots{
@@ -720,7 +711,6 @@ a{
 .footer > .ibk > .ibk-logo{
   width : 10% ;
   height : 100% ;
-  background-image: url(./img/footer-logo.png);
   background-position: center ;
   background-repeat: no-repeat ;
   background-size: 60% ;
